@@ -72,6 +72,9 @@ body {
   cursor: pointer;
   position: relative;
   background-color: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-card__button:focus {
@@ -87,6 +90,11 @@ body {
   color: var(--muted-color);
   text-align: center;
   font-weight: 600;
+}
+
+.icon {
+  width: 1.125rem;
+  height: 1.125rem;
 }
 
 .button-1 {
@@ -107,5 +115,15 @@ body {
 }
 
 .button-2:hover {
+  background-color: #f5f5f5;
+}
+
+.button-3 {
+  padding: 0;
+  width: 2.5rem;
+  border: 1px solid #cbcbcb;
+}
+
+.button-3:hover {
   background-color: #f5f5f5;
 }
