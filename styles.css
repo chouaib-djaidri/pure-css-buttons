@@ -92,7 +92,7 @@ body {
   font-weight: 600;
 }
 
-.icon {
+svg {
   width: 1.125rem;
   height: 1.125rem;
 }
@@ -114,16 +114,24 @@ body {
   border: 1px solid #cbcbcb;
 }
 
-.button-2:hover {
-  background-color: #f5f5f5;
+.button-3 {
+  padding: 0;
+  width: 2.5rem;
+  background-color: #ff4141;
+  color: #ffffff;
 }
 
-.button-3 {
+.button-3:hover {
+  background-color: #ff1717;
+}
+
+.button-4 {
   padding: 0;
   width: 2.5rem;
   border: 1px solid #cbcbcb;
 }
 
-.button-3:hover {
+.button-2:hover,
+.button-4:hover {
   background-color: #f5f5f5;
 }
