@@ -75,6 +75,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.375rem;
 }
 
 .button-card__button:focus {
@@ -111,18 +112,18 @@ svg {
 }
 
 .button-2 {
-  border: 1px solid #cbcbcb;
-}
-
-.button-3 {
   padding: 0;
   width: 2.5rem;
   background-color: #ff4141;
   color: #ffffff;
 }
 
-.button-3:hover {
+.button-2:hover {
   background-color: #ff1717;
+}
+
+.button-3 {
+  border: 1px solid #cbcbcb;
 }
 
 .button-4 {
@@ -131,7 +132,12 @@ svg {
   border: 1px solid #cbcbcb;
 }
 
-.button-2:hover,
-.button-4:hover {
+.button-5 {
+  border: 1px solid #cbcbcb;
+}
+
+.button-3:hover,
+.button-4:hover,
+.button-5:hover {
   background-color: #f5f5f5;
 }
