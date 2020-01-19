@@ -208,15 +208,32 @@ svg {
   --ring-color: #c026d3;
 }
 
+.button-10::after {
+  background-color: #334155;
+}
+
+.button-10::before {
+  bottom: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #1e293b;
+}
+
+.button-10:focus-visible {
+  --ring-color: #334155;
+}
+
 .button-8,
-.button-9 {
+.button-9,
+.button-10 {
   overflow: hidden;
   color: #ffffff;
   z-index: 1;
 }
 
 .button-8::after,
-.button-9::after {
+.button-9::after,
+.button-10::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -226,7 +243,8 @@ svg {
   z-index: -2;
 }
 .button-8::before,
-.button-9::before {
+.button-9::before,
+.button-10::before {
   content: "";
   position: absolute;
   transition: all 0.3s;
@@ -234,6 +252,7 @@ svg {
 }
 
 .button-8:hover::before,
-.button-9:hover::before {
+.button-9:hover::before,
+.button-10:hover::before {
   width: 100%;
 }
