@@ -323,3 +323,12 @@ svg {
 .button-14:hover {
   background-color: #e8e8e8;
 }
+
+.button-15 {
+  background-color: transparent;
+}
+
+.button-15:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
