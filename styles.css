@@ -267,6 +267,23 @@ svg {
   --ring-color: #0d9488;
 }
 
+.button-14 {
+  background-color: #f5f5f5;
+}
+
+.button-14:hover {
+  background-color: #e8e8e8;
+}
+
+.button-15 {
+  background-color: transparent;
+}
+
+.button-15:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
 .button-8,
 .button-9,
 .button-10,
@@ -316,19 +333,45 @@ svg {
   height: 100%;
 }
 
-.button-14 {
-  background-color: #f5f5f5;
-}
-
-.button-14:hover {
-  background-color: #e8e8e8;
-}
-
-.button-15 {
+.button-16 {
   background-color: transparent;
+  border: 2px solid #191634;
+  border-radius: 0;
 }
 
-.button-15:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.25rem;
+.button-16 span {
+  position: relative;
+  z-index: 20;
+}
+
+.button-16:before,
+.button-16:after {
+  content: "";
+  position: absolute;
+  background: #ffffff;
+  transition: all 0.2s linear;
+}
+
+.button-16:before {
+  width: calc(100% + 4px);
+  height: calc(100% - 14px);
+  top: 7px;
+  left: -2px;
+}
+
+.button-16:after {
+  width: calc(100% - 14px);
+  height: calc(100% + 4px);
+  top: -2px;
+  left: 7px;
+}
+
+.button-16:hover:before {
+  height: calc(100% - 24px);
+  top: 12px;
+}
+
+.button-16:hover:after {
+  width: calc(100% - 24px);
+  left: 12px;
 }
