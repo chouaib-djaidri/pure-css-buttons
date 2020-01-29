@@ -389,3 +389,19 @@ svg {
 .button-17:focus-visible {
   --ring-color: #b91c1c;
 }
+
+.button-18 {
+  color: #ffffff;
+  border: 1px solid transparent;
+  background-color: #0284c7;
+}
+
+.button-18:hover {
+  background-color: #ffffff;
+  border: 1px solid #0284c7;
+  color: #0284c7;
+}
+
+.button-18:focus-visible {
+  --ring-color: #0284c7;
+}
