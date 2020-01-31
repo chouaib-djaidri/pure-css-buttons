@@ -405,3 +405,22 @@ svg {
 .button-18:focus-visible {
   --ring-color: #0284c7;
 }
+
+.button-19 {
+  color: #ffffff;
+  background-size: 220% auto;
+  background-image: linear-gradient(
+    to right,
+    #232526 0%,
+    #525455 51%,
+    #232526 100%
+  );
+}
+
+.button-19:hover {
+  background-position: 96% center;
+}
+
+.button-19:focus-visible {
+  --ring-color: #da22ff;
+}
