@@ -440,3 +440,23 @@ svg {
 .button-20:hover {
   background-position: 96% center;
 }
+
+.button-21 {
+  padding: 0;
+  height: fit-content;
+}
+
+.button-21:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  background-color: #191634;
+  transition: 0.2s all;
+}
+
+.button-21:hover:after {
+  width: 100%;
+}
