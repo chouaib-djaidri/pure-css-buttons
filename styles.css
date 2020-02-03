@@ -33,6 +33,13 @@ body {
   gap: 1.5rem;
 }
 
+.fixer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+}
+
 .page-title {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -459,4 +466,22 @@ svg {
 
 .button-21:hover:after {
   width: 100%;
+}
+
+.button-22 {
+  background-color: #2b3044;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.button-22:hover {
+  background-color: #191634;
+}
+
+.button-22 span {
+  background: linear-gradient(90deg, #ff88f1, #ffb082, #ffea8d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
 }
