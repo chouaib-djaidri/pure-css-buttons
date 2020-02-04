@@ -451,6 +451,7 @@ svg {
 .button-21 {
   padding: 0;
   height: fit-content;
+  border-radius: 0;
 }
 
 .button-21:after {
@@ -484,4 +485,39 @@ svg {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   display: block;
+}
+
+.button-23 {
+  background-color: #e11d48;
+  color: #ffffff;
+  overflow: hidden;
+  width: 6rem;
+}
+
+.button-23 span:first-child {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.3s all;
+}
+
+.button-23 span:last-child {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  transform: translateY(-50%);
+  transition: 0.3s all;
+}
+
+.button-23:hover span:first-child {
+  top: -100%;
+}
+
+.button-23:hover span:last-child {
+  top: 50%;
+}
+
+.button-23:focus-visible {
+  --ring-color: #e11d48;
 }
