@@ -607,3 +607,35 @@ svg {
 .button-26:focus-visible {
   --ring-color: #be185d;
 }
+
+.button-27 {
+  color: #16a34a;
+  border: 1px solid #16a34a;
+  border-radius: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.button-27:hover {
+  color: #ffffff;
+}
+
+.button-27::before {
+  content: "";
+  position: absolute;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  transform: scale(0);
+  background-color: #16a34a;
+  transition: 0.5s all;
+  z-index: -1;
+}
+
+.button-27:hover::before {
+  transform: scale(1);
+}
+
+.button-27:focus-visible {
+  --ring-color: #16a34a;
+}
