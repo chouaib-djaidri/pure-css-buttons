@@ -105,208 +105,259 @@ svg {
   height: 1.125rem;
 }
 
+/* Button 1 */
 .button-1 {
   color: #ffffff;
   background-color: #16a34a;
 }
-
 .button-1:hover {
   background-color: #15803d;
 }
-
 .button-1:focus-visible {
   --ring-color: #16a34a;
 }
 
+/* Button 2 */
 .button-2 {
   padding: 0;
   width: 2.5rem;
   background-color: #ff4141;
   color: #ffffff;
 }
-
 .button-2:hover {
   background-color: #ff1717;
 }
-
 .button-2:focus-visible {
   --ring-color: #ff4141;
 }
 
+/* Button 3 */
 .button-3 {
   border: 1px solid #cbcbcb;
 }
+.button-3:hover {
+  background-color: #f5f5f5;
+}
 
+/* Button 4 */
 .button-4 {
   padding: 0;
   width: 2.5rem;
   border: 1px solid #cbcbcb;
 }
+.button-4:hover {
+  background-color: #f5f5f5;
+}
 
+/* Button 5 */
 .button-5 {
   border: 1px solid #cbcbcb;
 }
-
-.button-3:hover,
-.button-4:hover,
 .button-5:hover {
   background-color: #f5f5f5;
 }
 
+/* Button 6 */
 .button-6 {
   color: #86198f;
   border: 1px solid #86198f;
   background-color: #fcefff;
 }
-
 .button-6:hover {
   background-color: #86198f;
   color: #ffffff;
 }
-
 .button-6:focus-visible {
   --ring-color: #86198f;
 }
 
+/* Button 7 */
 .button-7 {
   background-color: #6366f1;
   box-shadow: 0px 4px 0 0 #3730a3;
   color: #ffffff;
   border-radius: 1rem;
 }
-
 .button-7:hover {
   background-color: #585af2;
 }
-
 .button-7:focus-visible {
   --ring-color: #6366f1;
 }
 
+/* Button 8 */
+.button-8 {
+  overflow: hidden;
+  color: #ffffff;
+  z-index: 1;
+}
 .button-8::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
   background-color: #ea580c;
 }
-
 .button-8::before {
+  content: "";
+  position: absolute;
+  transition: all 0.3s;
+  z-index: -1;
   bottom: 0;
   left: 0;
   width: 0%;
   height: 100%;
   background-color: #c2410c;
 }
-
+.button-8:hover::before {
+  width: 100%;
+}
 .button-8:focus-visible {
   --ring-color: #ea580c;
 }
 
+/* Button 9 */
+.button-9 {
+  overflow: hidden;
+  color: #ffffff;
+  z-index: 1;
+}
 .button-9::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
   background-color: #c026d3;
 }
-
 .button-9::before {
+  content: "";
+  position: absolute;
+  transition: all 0.3s;
+  z-index: -1;
   bottom: 0;
   right: 0;
   width: 0%;
   height: 100%;
   background-color: #a21caf;
 }
-
+.button-9:hover::before {
+  width: 100%;
+}
 .button-9:focus-visible {
   --ring-color: #c026d3;
 }
 
+/* Button 10 */
+.button-10 {
+  overflow: hidden;
+  color: #ffffff;
+  z-index: 1;
+}
 .button-10::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
   background-color: #334155;
 }
-
 .button-10::before {
+  content: "";
+  position: absolute;
+  transition: all 0.3s;
+  z-index: -1;
   bottom: 0;
   width: 0%;
   height: 100%;
   background-color: #1e293b;
 }
-
+.button-10:hover::before {
+  width: 100%;
+}
 .button-10:focus-visible {
   --ring-color: #334155;
 }
 
+/* Button 11 */
+.button-11 {
+  overflow: hidden;
+  color: #ffffff;
+  z-index: 1;
+}
 .button-11::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
   background-color: #0891b2;
 }
-
 .button-11::before {
+  content: "";
+  position: absolute;
+  transition: all 0.3s;
+  z-index: -1;
   top: 0;
   width: 100%;
   height: 0%;
   background-color: #0e7490;
 }
-
+.button-11:hover::before {
+  height: 100%;
+}
 .button-11:focus-visible {
   --ring-color: #0891b2;
 }
 
+/* Button 12 */
+.button-12 {
+  overflow: hidden;
+  color: #ffffff;
+  z-index: 1;
+}
 .button-12::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
   background-color: #db2777;
 }
-
 .button-12::before {
+  content: "";
+  position: absolute;
+  transition: all 0.3s;
+  z-index: -1;
   bottom: 0;
   width: 100%;
   height: 0%;
   background-color: #be185d;
 }
-
+.button-12:hover::before {
+  height: 100%;
+}
 .button-12:focus-visible {
   --ring-color: #db2777;
 }
 
-.button-13::after {
-  background-color: #0d9488;
-}
-
-.button-13::before {
-  width: 100%;
-  height: 0%;
-  background-color: #0f766e;
-}
-
-.button-13:focus-visible {
-  --ring-color: #0d9488;
-}
-
-.button-14 {
-  background-color: #f5f5f5;
-}
-
-.button-14:hover {
-  background-color: #e8e8e8;
-}
-
-.button-15 {
-  background-color: transparent;
-}
-
-.button-15:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.25rem;
-}
-
-.button-8,
-.button-9,
-.button-10,
-.button-11,
-.button-12,
+/* Button 13 */
 .button-13 {
   overflow: hidden;
   color: #ffffff;
   z-index: 1;
 }
-
-.button-8::after,
-.button-9::after,
-.button-10::after,
-.button-11::after,
-.button-12::after,
 .button-13::after {
   content: "";
   position: absolute;
@@ -315,42 +366,51 @@ svg {
   width: 100%;
   height: 100%;
   z-index: -2;
+  background-color: #0d9488;
 }
-.button-8::before,
-.button-9::before,
-.button-10::before,
-.button-11::before,
-.button-12::before,
 .button-13::before {
   content: "";
   position: absolute;
   transition: all 0.3s;
   z-index: -1;
-}
-
-.button-8:hover::before,
-.button-9:hover::before,
-.button-10:hover::before {
   width: 100%;
+  height: 0%;
+  background-color: #0f766e;
 }
-
-.button-11:hover::before,
-.button-12:hover::before,
 .button-13:hover::before {
   height: 100%;
 }
+.button-13:focus-visible {
+  --ring-color: #0d9488;
+}
 
+/* Button 14 */
+.button-14 {
+  background-color: #f5f5f5;
+}
+.button-14:hover {
+  background-color: #e8e8e8;
+}
+
+/* Button 15 */
+.button-15 {
+  background-color: transparent;
+}
+.button-15:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+/* Button 16 */
 .button-16 {
   background-color: transparent;
   border: 2px solid #191634;
   border-radius: 0;
 }
-
 .button-16 span {
   position: relative;
   z-index: 20;
 }
-
 .button-16:before,
 .button-16:after {
   content: "";
@@ -358,61 +418,56 @@ svg {
   background: #ffffff;
   transition: all 0.2s linear;
 }
-
 .button-16:before {
   width: calc(100% + 4px);
   height: calc(100% - 14px);
   top: 7px;
   left: -2px;
 }
-
 .button-16:after {
   width: calc(100% - 14px);
   height: calc(100% + 4px);
   top: -2px;
   left: 7px;
 }
-
 .button-16:hover:before {
   height: calc(100% - 24px);
   top: 12px;
 }
-
 .button-16:hover:after {
   width: calc(100% - 24px);
   left: 12px;
 }
 
+/* Button 17 */
 .button-17 {
   color: #b91c1c;
   border: 1px solid transparent;
   background-color: #fff0f0;
 }
-
 .button-17:hover {
   border: 1px solid #b91c1c;
 }
-
 .button-17:focus-visible {
   --ring-color: #b91c1c;
 }
 
+/* Button 18 */
 .button-18 {
   color: #ffffff;
   border: 1px solid transparent;
   background-color: #0284c7;
 }
-
 .button-18:hover {
   background-color: #ffffff;
   border: 1px solid #0284c7;
   color: #0284c7;
 }
-
 .button-18:focus-visible {
   --ring-color: #0284c7;
 }
 
+/* Button 19 */
 .button-19 {
   color: #ffffff;
   background-size: 220% auto;
@@ -423,11 +478,14 @@ svg {
     #232526 100%
   );
 }
-
+.button-19:hover {
+  background-position: 96% center;
+}
 .button-19:focus-visible {
   --ring-color: #232526;
 }
 
+/* Button 20 */
 .button-20 {
   color: #ffffff;
   background-size: 220% auto;
@@ -438,22 +496,19 @@ svg {
     #da22ff 100%
   );
 }
-
 .button-20:focus-visible {
   --ring-color: #da22ff;
 }
-
-.button-19:hover,
 .button-20:hover {
   background-position: 96% center;
 }
 
+/* Button 21 */
 .button-21 {
   padding: 0;
   height: fit-content;
   border-radius: 0;
 }
-
 .button-21:after {
   content: "";
   pointer-events: none;
@@ -464,21 +519,19 @@ svg {
   background-color: #191634;
   transition: 0.2s all;
 }
-
 .button-21:hover:after {
   width: 100%;
 }
 
+/* Button 22 */
 .button-22 {
   background-color: #2b3044;
   color: #ffffff;
   font-weight: 700;
 }
-
 .button-22:hover {
   background-color: #191634;
 }
-
 .button-22 span {
   background: linear-gradient(90deg, #ff88f1, #ffb082, #ffea8d);
   -webkit-background-clip: text;
@@ -487,13 +540,13 @@ svg {
   display: block;
 }
 
+/* Button 23 */
 .button-23 {
   background-color: #e11d48;
   color: #ffffff;
   overflow: hidden;
   width: 6rem;
 }
-
 .button-23 span:first-child {
   position: absolute;
   width: 100%;
@@ -501,7 +554,6 @@ svg {
   transform: translateY(-50%);
   transition: 0.3s all;
 }
-
 .button-23 span:last-child {
   position: absolute;
   width: 100%;
@@ -509,24 +561,21 @@ svg {
   transform: translateY(-50%);
   transition: 0.3s all;
 }
-
 .button-23:hover span:first-child {
   top: -100%;
 }
-
 .button-23:hover span:last-child {
   top: 50%;
 }
-
 .button-23:focus-visible {
   --ring-color: #e11d48;
 }
 
+/* Button 24 */
 .button-24 {
   padding: 0;
   background-color: #191634;
 }
-
 .button-24 span {
   border: 2px solid #191634;
   height: 100%;
@@ -540,11 +589,11 @@ svg {
   background-color: #ffffff;
   transform: translateY(-0.25rem);
 }
-
 .button-24:hover span {
   transform: translateY(0rem);
 }
 
+/* Button 25 */
 .button-25 {
   background-color: #4f46e5;
   color: #ffffff;
@@ -552,12 +601,10 @@ svg {
   width: 6rem;
   border-radius: 0;
 }
-
 .button-25 span {
   position: absolute;
   transform: skewX(8deg);
 }
-
 .button-25::before {
   content: "";
   position: absolute;
@@ -567,26 +614,23 @@ svg {
   background: #4338ca;
   transition: all 0.5s;
 }
-
 .button-25:hover::before {
   width: 100%;
 }
-
 .button-25:focus-visible {
   --ring-color: #4f46e5;
 }
 
+/* Button 26 */
 .button-26 {
   color: #be185d;
   border: 1px solid #be185d;
   overflow: hidden;
   z-index: 1;
 }
-
 .button-26:hover {
   color: #ffffff;
 }
-
 .button-26::before {
   content: "";
   position: absolute;
@@ -599,15 +643,14 @@ svg {
   transition: 0.5s all;
   z-index: -1;
 }
-
 .button-26:hover::before {
   width: 140%;
 }
-
 .button-26:focus-visible {
   --ring-color: #be185d;
 }
 
+/* Button 27 */
 .button-27 {
   color: #16a34a;
   border: 1px solid #16a34a;
@@ -615,11 +658,9 @@ svg {
   overflow: hidden;
   z-index: 1;
 }
-
 .button-27:hover {
   color: #ffffff;
 }
-
 .button-27::before {
   content: "";
   position: absolute;
@@ -631,11 +672,9 @@ svg {
   transition: 0.5s all;
   z-index: -1;
 }
-
 .button-27:hover::before {
   transform: scale(1);
 }
-
 .button-27:focus-visible {
   --ring-color: #16a34a;
 }
