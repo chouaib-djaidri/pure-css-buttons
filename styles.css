@@ -625,6 +625,7 @@ svg {
 .button-26 {
   color: #be185d;
   border: 1px solid #be185d;
+  border-radius: 0;
   overflow: hidden;
   z-index: 1;
 }
@@ -677,4 +678,29 @@ svg {
 }
 .button-27:focus-visible {
   --ring-color: #16a34a;
+}
+
+/* Button 28 */
+.button-28 {
+  background-color: #1e293b;
+  color: #ffffff;
+  border-radius: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+.button-28::before {
+  content: "";
+  position: absolute;
+  height: 300%;
+  width: 0;
+  transform: rotate(45deg);
+  background-color: #ffffff20;
+  transition: 0.5s all;
+  z-index: -1;
+}
+.button-28:hover::before {
+  width: 110%;
+}
+.button-28:focus-visible {
+  --ring-color: #1e293b;
 }
