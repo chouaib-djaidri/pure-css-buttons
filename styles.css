@@ -751,3 +751,42 @@ svg {
 .button-30:hover:after {
   width: 100%;
 }
+
+/* Button 31 */
+.button-31 {
+  background-color: #ea580c;
+  color: #ffffff;
+  border-radius: 3rem;
+  overflow: hidden;
+  z-index: 1;
+}
+.button-31::after,
+.button-31::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  inset: 50%;
+  z-index: -1;
+  transition: 0.3s ease-out;
+  background-color: #f26c25;
+}
+.button-31::after {
+  left: 21.5%;
+  transform: skew(90deg) translate(-50%, -50%);
+}
+.button-31::before {
+  top: -50%;
+  left: -21.5%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+.button-31:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+.button-31:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+}
+.button-31:focus-visible {
+  --ring-color: #ea580c;
+}
