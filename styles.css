@@ -612,7 +612,7 @@ svg {
   width: 0;
   height: 100%;
   background: #4338ca;
-  transition: all 0.5s;
+  transition: all 0.35s;
 }
 .button-25:hover::before {
   width: 100%;
@@ -641,7 +641,7 @@ svg {
   left: -20%;
   transform: skewX(45deg);
   background-color: #be185d;
-  transition: 0.5s all;
+  transition: 0.35s all;
   z-index: -1;
 }
 .button-26:hover::before {
@@ -695,7 +695,7 @@ svg {
   width: 0;
   transform: rotate(45deg);
   background-color: #ffffff20;
-  transition: 0.5s all;
+  transition: 0.35s all;
   z-index: -1;
 }
 .button-28:hover::before {
@@ -806,7 +806,7 @@ svg {
   --ring-color: #4f46e5;
 }
 
-/* Button 32 */
+/* Button 33 */
 .button-33 {
   border-radius: 0;
   z-index: 1;
@@ -843,4 +843,36 @@ svg {
 .button-33:hover {
   color: #ffffff;
   transition-delay: 0.25s;
+}
+
+/* Button 34 */
+.button-34 {
+  color: #0f172a;
+  border: 1px solid #0f172a;
+  transition: 0.4s all;
+  border-radius: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+.button-34:hover {
+  color: #ffffff;
+}
+.button-34::before {
+  content: "";
+  position: absolute;
+  height: 12rem;
+  width: 12rem;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  transform: scale(0);
+  background-color: #0f172a;
+  transition: 0.5s all;
+  z-index: -1;
+}
+.button-34:hover::before {
+  transform: scale(1.5);
+}
+.button-34:focus-visible {
+  --ring-color: #0f172a;
 }
