@@ -876,3 +876,27 @@ svg {
 .button-34:focus-visible {
   --ring-color: #0f172a;
 }
+
+/* Button 35 */
+.button-35 {
+  padding: 0;
+  border-radius: 0;
+  background-color: #191634;
+  color: #ffffff;
+}
+.button-35 span {
+  height: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0;
+  transition: all 0.25s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #059669;
+  transform: translate(0.25rem, -0.25rem);
+}
+.button-35:hover span {
+  transform: translateY(0rem);
+  background: #047857;
+}
