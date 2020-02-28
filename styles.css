@@ -923,3 +923,18 @@ svg {
 .button-36:hover span {
   transform: translateY(-0.25rem);
 }
+
+/* Button 37 */
+.button-37 {
+  background-color: #6d28d9;
+  color: #ffffff;
+  border-radius: 3rem;
+  overflow: hidden;
+  z-index: 1;
+}
+.button-37:hover {
+  transform: translateY(-0.25rem);
+}
+.button-37:focus-visible {
+  --ring-color: #6d28d9;
+}
