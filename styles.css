@@ -990,3 +990,47 @@ svg {
     transform: scale3d(1, 1, 1);
   }
 }
+
+/* Button 39 */
+.button-39 {
+  color: #ffffff;
+  border-radius: 3rem;
+  background-color: #0891b2;
+}
+.button-39:hover {
+  animation: shake3856 0.3s linear infinite both;
+}
+.button-39:focus-visible {
+  --ring-color: #0891b2;
+}
+@keyframes shake3856 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
