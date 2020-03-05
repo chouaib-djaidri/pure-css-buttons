@@ -1034,3 +1034,38 @@ svg {
     transform: translate(0);
   }
 }
+
+/* Button 40 */
+.button-40 {
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.button-40:before {
+  content: "";
+  pointer-events: none;
+  top: -2px;
+  position: absolute;
+  width: 0%;
+  right: 0;
+  height: 2px;
+  background-color: #191634;
+  transition: 0.2s all;
+}
+.button-40:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  position: absolute;
+  width: 0%;
+  left: 0;
+  height: 2px;
+  background-color: #191634;
+  transition: 0.2s all;
+}
+.button-40:hover:before {
+  width: 100%;
+}
+.button-40:hover:after {
+  width: 100%;
+}
