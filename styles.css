@@ -1091,3 +1091,28 @@ svg {
   transform: translate(0.25rem, -0.25rem);
   background: #ff4141;
 }
+
+/* Button 42 */
+.button-42 {
+  padding: 0;
+  background-color: #7c2d12;
+  border-radius: 0;
+  color: #ffffff;
+}
+.button-42 span {
+  height: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: all 0.25s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0.25rem, -0.25rem);
+  background-color: #ea580c;
+}
+.button-42:hover {
+  transform: translate(0.25rem, -0.25rem);
+}
+.button-42:hover span {
+  transform: translate(-0.25rem, 0.25rem);
+}
