@@ -1116,3 +1116,31 @@ svg {
 .button-42:hover span {
   transform: translate(-0.25rem, 0.25rem);
 }
+
+/* Button 43 */
+.button-43 {
+  padding: 0;
+  background-color: #191634;
+  color: #ffffff;
+}
+.button-43 span {
+  height: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.375rem;
+  transition: all 0.25s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0.25rem, -0.25rem);
+  border: 2px solid #191634;
+  background-color: #059669;
+}
+.button-43:hover {
+  background-color: #059669;
+  color: #059669;
+}
+.button-43:hover span {
+  border: 2px solid #059669;
+  background-color: #ffffff;
+}
