@@ -1144,3 +1144,23 @@ svg {
   border: 2px solid #059669;
   background-color: #ffffff;
 }
+
+/* Button 44 */
+.button-44 {
+  color: #7e22ce;
+  background-color: #f3e8ff;
+  border-radius: 3rem;
+  overflow: hidden;
+  z-index: 1;
+}
+.button-44:hover {
+  transform: scale(1.1);
+  background-color: #7e22ce;
+  color: #ffffff;
+}
+.button-44:active {
+  transform: scale(0.9);
+}
+.button-44:focus-visible {
+  --ring-color: #7e22ce;
+}
