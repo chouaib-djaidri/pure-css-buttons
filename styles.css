@@ -1146,21 +1146,27 @@ svg {
 }
 
 /* Button 44 */
-.button-44 {
+.button-44:hover {
+  letter-spacing: 1.2px;
+  background-color: #e8e8e8;
+}
+
+/* Button 45 */
+.button-45 {
   color: #7e22ce;
   background-color: #f3e8ff;
   border-radius: 3rem;
   overflow: hidden;
   z-index: 1;
 }
-.button-44:hover {
+.button-45:hover {
   transform: scale(1.1);
   background-color: #7e22ce;
   color: #ffffff;
 }
-.button-44:active {
+.button-45:active {
   transform: scale(0.9);
 }
-.button-44:focus-visible {
+.button-45:focus-visible {
   --ring-color: #7e22ce;
 }
