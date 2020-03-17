@@ -1209,3 +1209,19 @@ svg {
 .button-46:focus-visible {
   --ring-color: #7e22ce;
 }
+
+/* Button 47 */
+.button-47 {
+  color: #0891b2;
+  border: 1px solid #0891b2;
+  overflow: hidden;
+  z-index: 1;
+}
+.button-47:hover {
+  transform: scale(1.1) rotate(5deg);
+  background-color: #0891b2;
+  color: #ffffff;
+}
+.button-47:focus-visible {
+  --ring-color: #0891b2;
+}
